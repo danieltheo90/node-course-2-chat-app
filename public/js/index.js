@@ -7,10 +7,6 @@ socket.on('connect',function(){
 	// 	to: 'dtheo0690@gmail.com',
 	// 	text: 'hey. this is daniel.'
 	// });
-	socket.emit('createMessage',{
-		form: 'Theo',
-		text: 'Yups that work for me!'
-	});
 });
 
 socket.on('disconnect',function(){
